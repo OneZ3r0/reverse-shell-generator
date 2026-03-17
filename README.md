@@ -39,12 +39,12 @@ npx netlify dev
 Simply run the following commands within this repository to spin up the instance locally using a Docker container
 
 ```
-docker build -t reverse_shell_generator .
+docker compose up -d
 
-docker run -d -p 80:80 reverse_shell_generator
+docker compose down
 ```
 
-Browse to http://localhost:80
+Browse to http://localhost:8089
 
 ## Contributors ✨
 
