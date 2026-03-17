@@ -1,0 +1,6 @@
+services:
+  revshells:
+    container_name: revshells
+    build: .
+    ports:
+      - "8089:80"
